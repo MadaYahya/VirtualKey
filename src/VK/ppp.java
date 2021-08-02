@@ -1,18 +1,13 @@
 package VK;
 
 import java.awt.FlowLayout;
-import java.util.Scanner;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import java.util.*;  
+import javax.swing.JMenuItem;  
 
 public class ppp implements ActionListener
 	{
@@ -66,10 +61,7 @@ public class ppp implements ActionListener
 	    }
 	    
 	    
-	    private static void viewUsers() {
-			// TODO Auto-generated method stub
-			
-		}
+	    
 
 
 		//Function to display the menu item selected
@@ -78,6 +70,7 @@ public class ppp implements ActionListener
 	    	
 	    	text.setText("Menu Item Selected : "+e.getActionCommand());
 	    	
-		}
+	    }
 	}
+
 
